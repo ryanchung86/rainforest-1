@@ -5,6 +5,6 @@
   <p>
     <%= link_to product.name, "products/#{product.id}" %><br/>
     <%= product.description %><br/>
-    <%= product.price_in_cents %>
+    <%= product.formatted_price %>
   </p>
 <% end %>
